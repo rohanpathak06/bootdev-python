@@ -1,3 +1,5 @@
+# Fix the math bug on line 3.
+
 sword_damage = 10
 start_health = 100
 end_health = start_health - sword_damage
