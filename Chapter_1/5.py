@@ -1,17 +1,16 @@
-
 """
 Assignment
-The dialogue in our game should display in the correct order! In the first level, our hero encounters a talking owl named Jax.
+Simple addition is used all the time in game development. In Fantasy Quest, we want weapons to deal bonus damage when they're enchanted.
 
-Run (not submit) the code and see that it's printed in the wrong order
-Rearrange the code so that it prints in the following (correct) order:
-Jax: B-Kaw!
-Hero: ...
-Jax: Where are you off to this morning? Bkaw...
-Hero: Where did an owl learn to speak??
+Our hero's sword deals 250 damage normally, but should deal an additional 75 damage when it's enchanted.
+
+Calculate and print the result of 250 + 75
 """
 
-print("Jax: B-Kaw!")
-print("Hero: ...")
-print("Jax: Where are you off to this morning? Bkaw...")
-print("Hero: Where did an owl learn to speak??")
+normal_damage = 250
+
+enchanted_damage = 75
+
+total_damage = normal_damage + enchanted_damage
+
+print(total_damage)

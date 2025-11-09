@@ -1,7 +1,10 @@
-# Assignment
-# Fantasy Quest has a bug in its server code. The code is supposed to print messages indicating the game server has started successfully.
+"""
+Assignment
+Let's continue our work on Fantasy Quest. There's a bug in our game, and our players are distraught.
 
-# Fix both syntax errors in the code.
+They're so needy... it's not like we added microtransactions...
 
-print("Starting up game server...")
-print("local game server is listening on port 8080")
+The code was supposed to print Welcome to Fantasy Quest! to our users, but they get an error instead. Find the syntax error in the code editor, and fix it.
+"""
+
+print("Welcome to Fantasy Quest!")

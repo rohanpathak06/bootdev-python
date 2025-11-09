@@ -1,9 +1,6 @@
+"""
+Assignment
+Debug the code so that it correctly prints the solution to the math problem.
+"""
 
-# Assignment
-# Add 2 separate print statements to complete the Innkeeper's response. They should output the following to the console in that order:
-
-# The Innkeeper: Ah! Great choices...
-# The Innkeeper: Is there anything else I can help you with?
-
-print("he Innkeeper: Ah! Great choices...")
-print("The Innkeeper: Is there anything else I can help you with?")
+print((250 + 241 + 244 + 255) / 4)

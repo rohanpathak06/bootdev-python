@@ -1,16 +1,16 @@
-#square numbers
-
-def square_numbers(numbers):
+# squares
+ 
+def eval_squares(nums):
     squares = []
-    for nums in numbers:
-        squares.append(nums**2)
+    for number in nums:
+        squares.append(number ** 2)
         
     return squares
 
 def main():
-    numbers = [1,2,3,4,5]
-    ans = square_numbers(numbers)
+    nums = [1,2,3,4,5]
+    ans = eval_squares(nums)
     print(ans)
     
     
-main()
+main()   

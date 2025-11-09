@@ -1,4 +1,16 @@
-# The code was supposed to print Welcome to Fantasy Quest! to our users, but they get an error instead.
-# Find the syntax error in the code editor, and fix it.
+"""
+Assignment
+The dialogue in our game should display in the correct order! In the first level, our hero encounters a talking owl named Jax.
 
-print("Welcome to Fantasy Quest!")
+Run (not submit) the code and see that it's printed in the wrong order
+Rearrange the code so that it prints in the following (correct) order:
+Jax: B-Kaw!
+Hero: ...
+Jax: Where are you off to this morning? Bkaw...
+Hero: Where did an owl learn to speak??
+"""
+
+print("Jax: B-Kaw!")
+print("Hero: ...")
+print("Jax: Where are you off to this morning? Bkaw...")
+print("Hero: Where did an owl learn to speak??")
